@@ -1,0 +1,188 @@
+body {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h2 {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+h3,
+h4 {
+    font-weight: normal;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #fede65;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Helvetica;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #f1d492;
+    box-shadow: 0px 5px 15px #e9af59;
+    transform: translateY(-3px);
+}
+
+p {
+    color: black;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+input[type="checkbox"]:hover {
+    background-color: #f1d492;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #fede65;
+}
+
+label {
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+}
+
+.noDisplay {
+    display: none;
+}
+
+.img {
+    margin: 0 auto;
+}
+
+.div8input {
+    display: flex;
+    align-items: center;
+}
+
+#div4img1,
+#div4img2 {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#div8checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+#div8img {
+    display: flex;
+    justify-content: center;
+}
+
+/* ORDENADOR */
+@media screen and (min-width: 800px) {
+    #img5hole,
+    #img5one,
+    #img5two {
+        width: 15%;
+    }
+
+    #img1,
+    #img3clothes,
+    #img3naked {
+        width: 20%;
+    }
+
+    #img8bath,
+    #img8water,
+    #img8snacks,
+    #img8cuddles {
+        width: 25%;
+        margin: 0 5px;
+    }
+
+    #img5finger,
+    #img6,
+    #img7,
+    #img8,
+    #img9 {
+        width: 30%;
+    }
+
+    #img2bed,
+    #img2couch {
+        width: 35%;
+    }
+
+    #img4tense,
+    #img4relaxed {
+        width: 80%;
+    }
+}
+
+/* MÓVIL */
+@media screen and (max-width: 800px) {
+    #img5hole,
+    #img5one,
+    #img5two {
+        width: 40%;
+    }
+
+    #img1,
+    #img3clothes,
+    #img3naked {
+        width: 50%;
+    }
+
+    #img8bath,
+    #img8water,
+    #img8snacks,
+    #img8cuddles {
+        width: 25%;
+        margin: 0 5px;
+    }
+
+    #img5finger,
+    #img6,
+    #img7,
+    #img8,
+    #img9 {
+        width: 60%;
+    }
+
+    #img2bed,
+    #img2couch {
+        width: 65%;
+    }
+
+    #img4tense,
+    #img4relaxed {
+        width: 80%;
+    }
+}
